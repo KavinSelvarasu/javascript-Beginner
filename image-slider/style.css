@@ -1,0 +1,21 @@
+img {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 40%;
+}
+
+button {
+    border: 1px solid cadetblue;
+    left: 42%;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+    display: initial;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    border: 1px solid steelblue;
+    background-color: aquamarine;
+    border-radius: 7px;
+}

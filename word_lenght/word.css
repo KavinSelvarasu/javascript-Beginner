@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.word-count {
+
+    display: block;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    padding: 20px;
+    margin: auto;
+}
+
+.input-box {
+
+    display: grid;
+}
+
+.input-box input {
+
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+.button {
+
+    text-align: center;
+    justify-content: center;
+}
+
+.button button {
+
+    padding: 5px 15px;
+    margin: 10px;
+    outline: none;
+    border: 1px solid pink;
+    border-radius: 20px;
+    color: grey;
+}
+
+button:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}

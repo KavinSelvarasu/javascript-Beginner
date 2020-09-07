@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+  <!-- script -->
+  <script src="main.js" defer></script>
+
+</head>
+
+<body>
+  <div id="kai">
+    <h3 class="heading">Quiz Application</h3>
+
+
+    <!-- Question Section -->
+
+
+    <img class="svg" src="./assects/f2.svg" alt="">
+
+    <!-- timer -->
+
+
+    <div class="timer" id='time'>00:00:00</div>
+    <button class="startButton" onclick="startStop()">Start</button>
+    <!-- slides -->
+    <div class="questions">
+      <div class="question-head">
+        <h5>Question 1 :</h5>
+        <div class="question">
+          <p>
+            In which year of First World War Germany declared war on Russia
+            and France?
+          </p>
+          <form class="button">
+            <input type="radio" />1914 <input type="radio" />1917
+            <input type="radio" />1947
+          </form>
+          <div class="display 1">
+            Answer : <span style="color: green"> Option A</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-head">
+        <h5>Question 2 :</h5>
+        <div class="question">
+          <p>ICAO stands for</p>
+          <div class="button">
+            <input type="radio" />International Civil Aviation Organization
+            <input type="radio" />Institute of Company of Accounts
+            Organization <input type="radio" />None of the above
+          </div>
+          <div class="display 1">
+            Answer : <span style="color: green"> Option A</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-head">
+        <h5>Question 3 :</h5>
+        <div class="question">
+          <p>
+            IIndia's first Technicolor film ____ in the early 1950s was
+            produced by ____
+          </p>
+          <div class="button">
+            <input type="radio" />'Jhansi Ki Rani', Sohrab Modi
+            <input type="radio" />'Jhansi Ki Rani', Sir Syed Ahmed
+            <input type="radio" />'Mirza Ghalib', Sohrab Modi
+          </div>
+          <div class="display 1">
+            Answer : <span style="color: green"> Option A</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="question-head">
+        <h5>Question 4 :</h5>
+        <div class="question">
+          <p>India has largest deposits of ____ in the world.</p>
+          <div class="button">
+            <input type="radio" />gold <input type="radio" />copper
+            <input type="radio" />mica
+          </div>
+        </div>
+        <div class="display 1" id="1">
+          Answer : <span style="color: green"> Option A</span>
+        </div>
+      </div>
+
+      <div class="question-head">
+        <h5>Question 5 :</h5>
+        <div class="question">
+          <p>How many Lok Sabha seats belong to Rajasthan?</p>
+          <div class="button">
+            <input type="radio" />32
+            <input type="radio" />42
+            <input type="radio" />52
+          </div>
+        </div>
+
+        <div class="display 1" id="1">
+          Answer : <span style="color: green"> Option A</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- buttons -->
+
+  <div class="pages">
+    <a href="" id="answer">Answer</a>
+    <a href="./thanks" id="submit" class="display">Submit</a>
+
+    <a href="" id="next">Next
+
+      <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="currentColor"
+        xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M8.146 4.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.793 8 8.146 5.354a.5.5 0 0 1 0-.708z" />
+        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5H11a.5.5 0 0 1 0 1H4.5A.5.5 0 0 1 4 8z" /></svg></a>
+  </div>
+</body>
+<!-- jquery Libary CDN -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+</html>

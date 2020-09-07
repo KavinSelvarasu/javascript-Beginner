@@ -1,0 +1,72 @@
+*, *::before, *::after{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14pt;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+.tip-cal{
+    display: inline-block;
+    position: absolute;
+    left: 35%;
+    margin-top: 10%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.bill{
+    display: flex;
+}
+.tip-per{
+    display: flex;
+}
+.Total-bill{
+    display: flex;
+}
+.Tip-amount{
+    display: flex;
+}
+p{
+    margin: 20px;
+}
+input{
+    display: inline-block;
+    margin: auto;
+    margin-right: 30px;
+    border: 1px solid black;
+    padding: 4px;
+    transition: all 500ms ease;
+}
+input:focus{
+    border: 2px solid #FC8484;
+    -webkit-box-shadow: 1px 2px 13px -2px rgba(173,173,173,1);
+    -moz-box-shadow: 1px 2px 13px -2px rgba(173,173,173,1);
+    box-shadow: 1px 2px 13px -2px rgba(173,173,173,1);
+    transition: all 500ms ease;
+    outline: none;
+}
+button{
+
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    transition: all 500ms ease;
+}
+button:hover{
+
+    border: 1px solid #FC8484;
+    -webkit-box-shadow: 2px 4px 13px -2px rgba(0,0,0,0.48);
+    -moz-box-shadow: 2px 4px 13px -2px rgba(0,0,0,0.48);
+    box-shadow: 2px 4px 13px -2px rgba(0,0,0,0.48);
+    transition: all 500ms ease;
+    color: red;
+}

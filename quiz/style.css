@@ -1,0 +1,170 @@
+body {
+    margin: auto;
+    padding: 0px;
+    font-family: 'Jost', sans-serif;
+    background-color: rgb(241, 238, 233);
+}
+
+/* main file */
+
+.display {
+    display: none;
+}
+
+.timer {
+    padding: 10px;
+    margin: auto;
+    font-size: 14pt;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+
+.timer div {
+    margin: 20px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30pt;
+    color: #D40C0C;
+
+    letter-spacing: 0.1em;
+    font-weight: 400;
+}
+
+.questions {
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.question-head {
+
+    box-shadow: 0px 14px 12px -9px rgba(0, 0, 0, 0.21);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 10px;
+    transition: all 500ms ease;
+    background-color: white;
+
+}
+
+.question-head:hover {
+    box-shadow: 4px 21px 18px 0px rgba(0, 0, 0, 0.08);
+    transition: all 500ms ease;
+}
+
+.question-head h5 {
+    font-size: 16pt;
+    color: #BA1207;
+}
+
+.question-head p {
+    font-size: 14pt;
+    letter-spacing: 3px;
+
+
+}
+
+.button input {
+    padding: 40px;
+    margin: 15px 10px 25px 0px;
+    color: white
+}
+
+.button :nth-child(2) {
+    margin-left: 50px;
+}
+
+.button :nth-child(3) {
+    margin-left: 50px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: black;
+    font-size: 16pt;
+    position: relative;
+}
+
+.pages {
+    margin-bottom: 100px;
+    text-align: end;
+    margin-right: 70px;
+}
+
+#answer {
+    background-color: #3B7EF6;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 4px 21px 18px 0px rgba(0, 0, 0, 0.08);
+    padding: 10px 25px 10px 25px;
+    margin: 50px 20px 50px 40px;
+    margin-top: 40px;
+    transition: all 500ms ease;
+}
+
+#answer:hover {
+    box-shadow: 1px 15px 22px -8px rgba(0, 0, 0, 0.35);
+    transition: all 500ms ease;
+}
+
+.startButton {
+    background-color: #3B7EF6;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 4px 21px 18px 0px rgba(0, 0, 0, 0.08);
+    padding: 15px 50px 15px 50px;
+    transition: all 500ms ease;
+    text-align: center;
+    position: relative;
+    top: 21px;
+    left: 46%;
+    margin: auto;
+    transition: all 100ms ease;
+}
+
+.startButton:hover {
+    transition: all 500ms ease;
+    text-align: center;
+    box-shadow: 1px 15px 22px -8px rgba(0, 0, 0, 0.35);
+    transition: all 500ms ease;
+}
+
+#next {
+    border: 0.3px solid #3B7EF6;
+    border-radius: 7px;
+    box-shadow: 0px 0px 12px -9px rgba(0, 0, 0, 0);
+    padding: 10px 25px 10px 25px;
+    margin-top: 40px;
+    transition: all 500ms ease;
+    color: ;
+
+}
+
+#next svg {
+    position: relative;
+    align-content: center;
+    top: 6px;
+
+}
+
+#next:hover {
+    box-shadow: 1px 15px 22px -8px rgba(0, 0, 0, 0.35);
+    transition: all 500ms ease;
+    border: 0.5px solid red;
+    color: red;
+}
+
+.svg {
+    width: 300px;
+    height: auto;
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
